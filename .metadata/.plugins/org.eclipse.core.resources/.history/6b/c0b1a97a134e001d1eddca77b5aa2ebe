@@ -1,0 +1,13 @@
+
+public class BankkontoTester {
+
+	public static void main(String[] args) {
+		Bankkonto konto1
+        = new Bankkonto( "123", "Bob", 100 );
+
+System.out.println( konto1.kontonummer + " " +
+    konto1.kontoinhaber + " " + konto1.kontostand );
+
+	}
+
+}

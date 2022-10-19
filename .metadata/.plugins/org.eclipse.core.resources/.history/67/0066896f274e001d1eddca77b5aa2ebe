@@ -1,0 +1,22 @@
+
+public class BankkontoTester {
+
+	public static void main(String[] args) {
+		Bankkonto konto1
+        = new Bankkonto( "123", "Bob", 100 );
+        Bankkonto konto2= new Bankkonto ("007", "James bond ", 50000);
+
+System.out.println( konto1.kontonummer + " " +
+    konto1.kontoinhaber + " " + konto1.kontostand );
+System.out.println( konto1.getKontostand());
+ konto1.verarbeiteEinzahlung(2000);
+ System.out.println( konto1.getKontostand());
+konto1.anzeigen();
+konto2.anzeigen();
+konto2.verarbeiteEinzahlung(700);
+konto2.anzeigen();
+konto1.verarbeiteEinzahlung(300);
+konto1.anzeigen();
+	}
+
+}

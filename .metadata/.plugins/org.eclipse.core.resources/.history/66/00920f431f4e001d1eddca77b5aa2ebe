@@ -1,0 +1,22 @@
+
+public class Bankkonto {
+	// Instanzvariablen
+	  String kontonummer;
+	  String kontoinhaber;
+	  int    kontostand;
+
+	  // Konstruktoren
+	  Bankkonto( String ktoNummer, String ktoInhaber, int start )
+	  {
+		    kontonummer  = ktoNummer;
+		    kontoinhaber = ktoInhaber;
+		    kontostand   = start;
+		  }
+
+		  // Methoden
+	  int getKontostand()
+	  {
+	     return kontostand;
+	  }
+		}
+
